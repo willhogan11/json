@@ -16,7 +16,7 @@ Save each exercise as a separate source file.
 
 1. Create a variable called jsonobj, which is the return value of JSON.parse called with jsontext as an argument.
 
-1. In jsontext's empty single quotes, write text JSON code for an object with a single name/value pair, where the name is "breed" and the value is "labrador".    
+1. In jsontext's empty single quotes, write the JSON code for an object with a single name/value pair, where the name is "breed" and the value is "labrador".    
 
 ## Advanced exercises
 
