@@ -2,7 +2,7 @@
 In this exercise we will refresh some of the basics of JavaScript.
 
 ## Exercises
-Save each exercise as a separate source files.
+Save each exercise as a separate source file.
 
 1. Download the files in this repository and open them in Brackets.
 
