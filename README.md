@@ -14,7 +14,7 @@ Save each exercise as a separate source file.
 
 1. Create a variable called jsonobj, which is the return value of JSON.parse called with jsontext as an argument. Check the result.
 
-1. In jsontext's empty single quotes, write the JSON code for an object with a single name/value pair, where the name is "breed" and the value is "labrador". Again, check the result.
+1. In jsontext, write the JSON code for an object with a single name/value pair, where the name is "breed" and the value is "labrador". Again, check the result.
 
 1. Change the parameter's name to "breeds", and change its value to an array containing three strings: "labrador", "collie" and "springer".
 
@@ -30,6 +30,6 @@ Save each exercise as a separate source file.
 
 ## Note
 
-- JSON.pasrse on Mozzila's Developer Network: [JSON.parse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse#Syntax)
+- JSON.parse on Mozzila's Developer Network: [JSON.parse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse#Syntax)
 
 - JSON.stringify on Mozzila's Developer Network: [JSON.stringify()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
