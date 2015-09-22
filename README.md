@@ -16,7 +16,7 @@ Save each exercise as a separate source file.
 
 1. In jsontext, write the JSON code for an object with a single name/value pair, where the name is "breed" and the value is "labrador". Again, check the result.
 
-1. Change the parameter's name to "breeds", and change its value to an array containing three strings: "labrador", "collie" and "springer".
+1. Change the property's name to "breeds", and change its value to an array containing three strings: "labrador", "collie" and "springer".
 
 1. Go to [JSONLint](http://jsonlint.com/), and copy and paste the contents of jsontext into the test box. Click Validate.
 
