@@ -7,21 +7,19 @@
 
 <body>
   <script type="text/javascript">
-
       var car = {
         "make": "Skoda"
         , "model": "Octavia"
       }
       
-      console.log(JSON.stringify(car));
-
+      var cartext = JSON.stringify(car);
+      console.log(cartext);
+      
+      var vantext = '{"make": "Ford", "year": 2012}';
+      var van = JSON.parse(vantext);
+      
+      console.log(van);
   </script>
 </body>
 
-</html> 
-
-
-
-
-
-
+</html>
