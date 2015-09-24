@@ -1,14 +1,14 @@
-# JavaScript Refresher
-In this exercise we will refresh some of the basics of JavaScript.
+# JavaScript Object Notation
+In this exercise we will look at the syntax and use of JavaScript Object Notation (JSON).
 
 ## Exercises
 Save each exercise as a separate source file.
 
-1. Download the files in this repository and open them in Brackets.
+1. Download the files in this repository and open them in Brackets. Open javascript.html in Firefox, and open the JavaScript console.
 
-1. Open javascript.html in Firefox and open the JavaScript console.
+1. Copy and paste the output of [reddit.com/.json](http://www.reddit.com/.json) into JSONLint. Check that the JSON output from Reddit conforms to the JSON standard.
 
-1. Add another property to the car object, called year and give it a value of 2007. Refresh javascript.html in your browser.
+1. Find the car object in javascript.html. Add another property to the car object, called year and give it a value of 2007. Refresh javascript.html in your browser.
 
 1. Create a variable called jsontext in the JavaScript code that is a string containing only a pair of curly braces, delimited by single quotes.
 
@@ -20,7 +20,9 @@ Save each exercise as a separate source file.
 
 1. Go to [JSONLint](http://jsonlint.com/), and copy and paste the contents of jsontext into the test box. Click Validate.
 
-1. Copy and paste the output of [reddit.com/.json](http://www.reddit.com/.json) into JSONLint.
+1. Change the contents of jsontext to represent an object representing a person's contact details, such as the name, surname, home phone number, mobile phone number, work email address, personal email address, and their children's names. You can choose your own names and values for the properties.
+
+1. Test to make sure your JSON code is valid, and that JSON.parse can understand it.
 
 ## Advanced exercises
 
