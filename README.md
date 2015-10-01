@@ -1,3 +1,4 @@
+###### Data Representation and Querying - Exercise 2
 # JavaScript Object Notation
 In this exercise we will look at the syntax and use of JavaScript Object Notation (JSON).
 
