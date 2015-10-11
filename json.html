@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Canvas</title>
+</head>
+
+<body>
+
+  <h1>Here's what reddit sent:</h1>
+
+  <p id="redditjson"></p>
+
+  <script type="text/javascript">
+
+    xmlhttp = new XMLHttpRequest();
+
+    xmlhttp.onreadystatechange = function() {
+
+      if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+        document.getElementById("redditjson").innerHTML = xmlhttp.responseText;
+      else
+        document.getElementById("redditjson").innerHTML = "Error"; // Like a 404 page not found error
+    };
+
+    xmlhttp.open("GET", "http://www.reddit.com/.json", true);
+    xmlhttp.send();
+
+  </script>
+</body>
+
+</html>
